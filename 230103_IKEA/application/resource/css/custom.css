@@ -1,0 +1,187 @@
+/* font settings */
+@font-face {
+    font-family: VerdanaIKEA;
+    src: url(../../../assets/fonts/VerdanaIKEA.ttf);
+}
+
+@font-face {
+    font-family: VerdanaIKEABold;
+    src: url(../../../assets/fonts/VerdanaIKEABold.ttf);
+}
+
+@font-face {
+    font-family: VerdanaIKEAItalic;
+    src: url(../../../assets/fonts/VerdanaIKEAItalic.ttf);
+}
+
+/* general text font settings */
+p {
+    font-family: 'VerdanaIKEA', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'VerdanaIKEABold', sans-serif;
+}
+
+h6 {
+    font-family: 'VerdanaIKEAItalic', sans-serif;
+}
+
+/* navigation bar settings */
+.logo {
+    /* font settings */
+    font-family: 'VerdanaIKEABold', sans-serif;
+    font-size: 90px;
+    font-weight: 100;
+    letter-spacing: 10px;
+
+    color: rgb(255, 218, 26);
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.navbar-ikea {
+    background-color: rgb(0, 81, 186);
+}
+
+.menu-item-ikea {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.menu-item-ikea a {
+    font-family: 'Verdana', sans-serif;
+    font-size: 25px;
+    color: rgb(255, 218, 26);
+}
+
+/* main page (big image) settings */
+.ikea-main-page {
+    background-image: url(../../../assets/images/ikea-main-page.png);
+    height: 600px;
+    width: 1000px;
+}
+
+.ikea-main-text {
+    float: right;
+    width: 90%;
+    display: block;
+
+    background-color: rgba(255, 218, 26, 0.7);
+    color: rgb(0, 81, 186);
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 15px;
+}
+
+/* main page (products group) settings */
+#products-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-img {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.product-text {
+    padding: 10px;
+}
+
+.product-btn {
+    color: rgb(255, 218, 26);
+    font-family: 'VerdanaIKEABold', sans-serif;
+    float: right;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+/* 3d model viewer settings */
+.model-card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* 3d model control panel settings */
+.panel-card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.panel-card h6 {
+    margin-top: 5px;
+}
+
+.panel-btns {
+    font-family: 'VerdanaIKEABold', sans-serif;
+    align-items: center;
+    color: rgb(0, 81, 186);
+}
+
+.panel-btns .btn-primary {
+    font-family: 'VerdanaIKEABold', sans-serif;
+    margin-bottom: 5px;
+    color: rgb(255, 218, 26);
+}
+
+.panel-btns .btn-secondary {
+    font-family: 'VerdanaIKEABold', sans-serif;
+    margin-bottom: 5px;
+    color: rgb(0, 81, 186);
+}
+
+/* footer settings */
+.copyright {
+    margin-bottom: 3px;
+    width: 60%;
+
+    font-family: 'VerdanaIKEABold';
+}
+
+.footer {
+    color: rgb(255, 218, 26);
+    background-color: rgb(0, 81, 186);
+    /* Set navbar footer background color same as header */
+    height: 50px;
+}
+
+.social {
+    padding-top: 0px;
+    width: 30%;
+}
+
+.fa-toggle-on:before {
+    color: rgb(0, 81, 186);
+    font-size: 1em;
+}
+
+.fa-toggle-off::before {
+    color: rgb(0, 81, 186);
+    font-size: 1em;
+}
+
+.fa-twitter-square:before {
+    color: rgb(255, 218, 26);
+    font-size: 1em;
+}
+
+.fa-github-square:before {
+    color: rgb(255, 218, 26);
+    font-size: 1em;
+}
+
+.fa-google-plus-square:before {
+    color: rgb(255, 218, 26);
+    font-size: 1em;
+}
+
+.fa-facebook-square:before {
+    color: rgb(255, 218, 26);
+    font-size: 1em;
+}
